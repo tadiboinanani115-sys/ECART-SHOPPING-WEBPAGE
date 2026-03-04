@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+#card{
+    height: 410px;
+    width: 350px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 80px;
+    border-radius:10px;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    outline: none;
+}
+#card h3{
+    margin-left: 10px;
+    text-align: center; 
+    font-size: 25px;
+    color: blue;
+    margin-top: 10px; 
+}
+#card p{
+    text-align: center;
+    /* font-size: 17px; */
+}
+#form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+}
+#form-group{
+    height: 30px;
+    width: 300px;
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+    gap: 5px;
+}
+#form-group input{
+    padding: 5px 5px;
+    border: 1px solid rgba(128, 128, 128, 0.411);
+    outline: none;
+    border-radius:5px ;
+}
+#form-group input:hover{
+    border-color: blue;
+}
+#form-group button{
+    height: 30px;
+    width: 270px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 26px;
+}
+#sub-image input{
+    width: 270px;
+       
+}
+#sub-image i{
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    padding: 0px 1px;
+}
+#sub-image1 input{
+    width: 270px;
+       
+}
+#sub-image1 i{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    padding: 0px 1px;
+    
+}
+
+#sub-image2 input{
+    width: 270px;
+       
+}
+#sub-image2 i{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    padding: 0px 1px;
+    
+}
+#sub-image3 input{
+    width: 270px;
+       
+}
+#sub-image3 i{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    padding: 1px 1px;
+    
+}
+#outer{
+    text-align: center;
+    font-size: 17px;
+}
+#outer a{
+    text-decoration: none;
+    color: blue;
+}
+#sub-image1 #errorMail{
+    display: flex;
+    justify-content: end;
+    color: red;
+}
+#errorpwd{
+    color: red;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+

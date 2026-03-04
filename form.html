@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form details</title>
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div id="card">
+        <h3 class="h3">create your profile</h3>
+        <p>please enter user details</p>
+       <form action="" id="form-container">
+        <div id="form-group">
+          <label for="fullname">Full name</label>
+          <div id="sub-image">
+          <i class="bi bi-person-fill"></i>
+          <input type="text" placeholder="Enter your full name" id="fullname">
+          </div>
+        </div>
+        <div id="form-group">
+            <label for="email">Email address</label>
+            <div id="sub-image1">
+            <i class="bi bi-envelope"></i>
+            <input type="text" placeholder="Email address@exmple.com" id="email">
+            <p id="errorMail"></p>
+            </div>
+        </div>
+        <div id="form-group">
+            <label for="password">password</label>
+            <div id="sub-image2">
+            <i class="bi bi-lock"></i>
+            <input type="password" placeholder="Enter your password" id="password">
+            <p id="errorpwd"></p>
+            </div>
+        </div>
+        <div id="form-group">
+            <label for="mobilenumber">mobile number</label>
+            <div id="sub-image3">
+            <i class="bi bi-phone"></i>
+            <input type="text" placeholder="+91 Enter your mobile number" id="mobilenumber">
+            </div>
+        </div>
+        <div id="form-group">
+            <button>Submit</button>
+        </div>
+        <div id="outer">
+        <p>Already account or 
+            <a href="">sign-up ?</a>
+        </p>
+        </div>
+       </form>
+    </div>
+    <script src="./form.js"></script>
+</body>
+</html>
